@@ -5,7 +5,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Install FFmpeg
       run: sudo apt update && sudo apt install -y ffmpeg
     - name: Run FFmpeg Commands
