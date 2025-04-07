@@ -1,6 +1,9 @@
 name: FFmpeg Encode MP4s
-'on':
-  workflow_dispatch: {}
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-latest
