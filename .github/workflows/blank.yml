@@ -13,480 +13,480 @@ jobs:
       run: sudo apt update && sudo apt install -y ffmpeg
     - name: Run FFmpeg Commands
       run: 'ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Abandoned (4K).jpg''
-        -i ''MP3s/Like Saturn - Abandoned.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Abandoned.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Abandoned (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Aesthetic (4K).jpg''
-        -i ''MP3s/Like Saturn - Aesthetic.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Aesthetic.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Aesthetic (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - After Hours (4K).jpg''
-        -i ''MP3s/Like Saturn - After Hours.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - After Hours.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - After Hours (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - As It Rains (4K).jpg''
-        -i ''MP3s/Like Saturn - As It Rains.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - As It Rains.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - As It Rains (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Away From The Storm
-        (4K).jpg'' -i ''MP3s/Like Saturn - Away From The Storm.mp3'' -c:v libx265
-        -crf 51 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac
+        (4K).jpg'' -i ''MP3s/Like Saturn - Away From The Storm.mp3'' -c:v libx264
+        -crf 0 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac
         2 -ar 44100 -shortest ''Like Saturn - Away From The Storm (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Before I Say Goodbye
-        (4K).jpg'' -i ''MP3s/Like Saturn - Before I Say Goodbye.mp3'' -c:v libx265
-        -crf 51 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac
+        (4K).jpg'' -i ''MP3s/Like Saturn - Before I Say Goodbye.mp3'' -c:v libx264
+        -crf 0 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac
         2 -ar 44100 -shortest ''Like Saturn - Before I Say Goodbye (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Beyond The Horizon
-        (4K).jpg'' -i ''MP3s/Like Saturn - Beyond The Horizon.mp3'' -c:v libx265 -crf
+        (4K).jpg'' -i ''MP3s/Like Saturn - Beyond The Horizon.mp3'' -c:v libx264 -crf
         25 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2
         -ar 44100 -shortest ''Like Saturn - Beyond The Horizon (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Bitter Nights (4K).jpg''
-        -i ''MP3s/Like Saturn - Bitter Nights.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Bitter Nights.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Bitter Nights (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Boundless Sorrow
-        (4K).jpg'' -i ''MP3s/Like Saturn - Boundless Sorrow.mp3'' -c:v libx265 -crf
+        (4K).jpg'' -i ''MP3s/Like Saturn - Boundless Sorrow.mp3'' -c:v libx264 -crf
         25 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2
         -ar 44100 -shortest ''Like Saturn - Boundless Sorrow (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Calm Before The Storm
-        (4K).jpg'' -i ''MP3s/Like Saturn - Calm Before The Storm.mp3'' -c:v libx265
-        -crf 51 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac
+        (4K).jpg'' -i ''MP3s/Like Saturn - Calm Before The Storm.mp3'' -c:v libx264
+        -crf 0 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac
         2 -ar 44100 -shortest ''Like Saturn - Calm Before The Storm (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Chaos Color (4K).jpg''
-        -i ''MP3s/Like Saturn - Chaos Color.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Chaos Color.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Chaos Color (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Cold Embers (4K).jpg''
-        -i ''MP3s/Like Saturn - Cold Embers.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Cold Embers.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Cold Embers (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Coming To An End
-        (4K).jpg'' -i ''MP3s/Like Saturn - Coming To An End.mp3'' -c:v libx265 -crf
+        (4K).jpg'' -i ''MP3s/Like Saturn - Coming To An End.mp3'' -c:v libx264 -crf
         25 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2
         -ar 44100 -shortest ''Like Saturn - Coming To An End (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Constant Waves (4K).jpg''
-        -i ''MP3s/Like Saturn - Constant Waves.mp3'' -c:v libx265 -crf 51 -preset
+        -i ''MP3s/Like Saturn - Constant Waves.mp3'' -c:v libx264 -crf 0 -preset
         ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest
         ''Like Saturn - Constant Waves (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Conundrum (4K).jpg''
-        -i ''MP3s/Like Saturn - Conundrum.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Conundrum.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Conundrum (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Coping (4K).jpg''
-        -i ''MP3s/Like Saturn - Coping.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Coping.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Coping (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Dark Lullaby (4K).jpg''
-        -i ''MP3s/Like Saturn - Dark Lullaby.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Dark Lullaby.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Dark Lullaby (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Descending (4K).jpg''
-        -i ''MP3s/Like Saturn - Descending.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Descending.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Descending (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Desert Rain (4K).jpg''
-        -i ''MP3s/Like Saturn - Desert Rain.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Desert Rain.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Desert Rain (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Don''"''"''t You
-        Cry (4K).jpg'' -i ''MP3s/Like Saturn - Don''"''"''t You Cry.mp3'' -c:v libx265
-        -crf 51 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac
+        Cry (4K).jpg'' -i ''MP3s/Like Saturn - Don''"''"''t You Cry.mp3'' -c:v libx264
+        -crf 0 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac
         2 -ar 44100 -shortest ''Like Saturn - Don''"''"''t You Cry (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Doom And Gloom (4K).jpg''
-        -i ''MP3s/Like Saturn - Doom And Gloom.mp3'' -c:v libx265 -crf 51 -preset
+        -i ''MP3s/Like Saturn - Doom And Gloom.mp3'' -c:v libx264 -crf 0 -preset
         ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest
         ''Like Saturn - Doom And Gloom (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Down We Fall (4K).jpg''
-        -i ''MP3s/Like Saturn - Down We Fall.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Down We Fall.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Down We Fall (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Dropoff (4K).jpg''
-        -i ''MP3s/Like Saturn - Dropoff.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Dropoff.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Dropoff (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Dropped Temperature
-        (4K).jpg'' -i ''MP3s/Like Saturn - Dropped Temperature.mp3'' -c:v libx265
-        -crf 51 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac
+        (4K).jpg'' -i ''MP3s/Like Saturn - Dropped Temperature.mp3'' -c:v libx264
+        -crf 0 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac
         2 -ar 44100 -shortest ''Like Saturn - Dropped Temperature (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Echoes And Whispers
-        (4K).jpg'' -i ''MP3s/Like Saturn - Echoes And Whispers.mp3'' -c:v libx265
-        -crf 51 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac
+        (4K).jpg'' -i ''MP3s/Like Saturn - Echoes And Whispers.mp3'' -c:v libx264
+        -crf 0 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac
         2 -ar 44100 -shortest ''Like Saturn - Echoes And Whispers (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Escape To Anywhere
-        (4K).jpg'' -i ''MP3s/Like Saturn - Escape To Anywhere.mp3'' -c:v libx265 -crf
+        (4K).jpg'' -i ''MP3s/Like Saturn - Escape To Anywhere.mp3'' -c:v libx264 -crf
         25 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2
         -ar 44100 -shortest ''Like Saturn - Escape To Anywhere (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Faint Glimmer (4K).jpg''
-        -i ''MP3s/Like Saturn - Faint Glimmer.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Faint Glimmer.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Faint Glimmer (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Falling Debris (4K).jpg''
-        -i ''MP3s/Like Saturn - Falling Debris.mp3'' -c:v libx265 -crf 51 -preset
+        -i ''MP3s/Like Saturn - Falling Debris.mp3'' -c:v libx264 -crf 0 -preset
         ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest
         ''Like Saturn - Falling Debris (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Familiar Dream (4K).jpg''
-        -i ''MP3s/Like Saturn - Familiar Dream.mp3'' -c:v libx265 -crf 51 -preset
+        -i ''MP3s/Like Saturn - Familiar Dream.mp3'' -c:v libx264 -crf 0 -preset
         ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest
         ''Like Saturn - Familiar Dream (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Flowing Whisper (4K).jpg''
-        -i ''MP3s/Like Saturn - Flowing Whisper.mp3'' -c:v libx265 -crf 51 -preset
+        -i ''MP3s/Like Saturn - Flowing Whisper.mp3'' -c:v libx264 -crf 0 -preset
         ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest
         ''Like Saturn - Flowing Whisper (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Fog Season (4K).jpg''
-        -i ''MP3s/Like Saturn - Fog Season.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Fog Season.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Fog Season (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Foggy Mind (4K).jpg''
-        -i ''MP3s/Like Saturn - Foggy Mind.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Foggy Mind.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Foggy Mind (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Forsaken Truth (4K).jpg''
-        -i ''MP3s/Like Saturn - Forsaken Truth.mp3'' -c:v libx265 -crf 51 -preset
+        -i ''MP3s/Like Saturn - Forsaken Truth.mp3'' -c:v libx264 -crf 0 -preset
         ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest
         ''Like Saturn - Forsaken Truth (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Further Than I Thought
-        (4K).jpg'' -i ''MP3s/Like Saturn - Further Than I Thought.mp3'' -c:v libx265
-        -crf 51 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac
+        (4K).jpg'' -i ''MP3s/Like Saturn - Further Than I Thought.mp3'' -c:v libx264
+        -crf 0 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac
         2 -ar 44100 -shortest ''Like Saturn - Further Than I Thought (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Getting Colder (4K).jpg''
-        -i ''MP3s/Like Saturn - Getting Colder.mp3'' -c:v libx265 -crf 51 -preset
+        -i ''MP3s/Like Saturn - Getting Colder.mp3'' -c:v libx264 -crf 0 -preset
         ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest
         ''Like Saturn - Getting Colder (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Gloom Garden (4K).jpg''
-        -i ''MP3s/Like Saturn - Gloom Garden.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Gloom Garden.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Gloom Garden (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Halcyon (4K).jpg''
-        -i ''MP3s/Like Saturn - Halcyon.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Halcyon.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Halcyon (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Hana Fields (4K).jpg''
-        -i ''MP3s/Like Saturn - Hana Fields.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Hana Fields.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Hana Fields (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Hard To Reach (4K).jpg''
-        -i ''MP3s/Like Saturn - Hard To Reach.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Hard To Reach.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Hard To Reach (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Harmony (4K).jpg''
-        -i ''MP3s/Like Saturn - Harmony.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Harmony.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Harmony (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Hollow (4K).jpg''
-        -i ''MP3s/Like Saturn - Hollow.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Hollow.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Hollow (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Hush (4K).jpg'' -i
-        ''MP3s/Like Saturn - Hush.mp3'' -c:v libx265 -crf 51 -preset ultrafast -pix_fmt
+        ''MP3s/Like Saturn - Hush.mp3'' -c:v libx264 -crf 0 -preset ultrafast -pix_fmt
         yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like Saturn
         - Hush (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - I Feel Like Someone
         Else (4K).jpg'' -i ''MP3s/Like Saturn - I Feel Like Someone Else.mp3'' -c:v
-        libx265 -crf 51 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a
+        libx264 -crf 0 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a
         320k -ac 2 -ar 44100 -shortest ''Like Saturn - I Feel Like Someone Else (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Out Of The Way (4K).jpg''
-        -i ''MP3s/Like Saturn - Out Of The Way.mp3'' -c:v libx265 -crf 51 -preset
+        -i ''MP3s/Like Saturn - Out Of The Way.mp3'' -c:v libx264 -crf 0 -preset
         ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest
         ''Like Saturn - Out Of The Way (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - I Feel So Lost At
         Night (4K).jpg'' -i ''MP3s/Like Saturn - I Feel So Lost At Night.mp3'' -c:v
-        libx265 -crf 51 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a
+        libx264 -crf 0 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a
         320k -ac 2 -ar 44100 -shortest ''Like Saturn - I Feel So Lost At Night (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - I Think I''"''"''ll
         Be Alright (4K).jpg'' -i ''MP3s/Like Saturn - I Think I''"''"''ll Be Alright.mp3''
-        -c:v libx265 -crf 51 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame
+        -c:v libx264 -crf 0 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame
         -b:a 320k -ac 2 -ar 44100 -shortest ''Like Saturn - I Think I''"''"''ll Be
         Alright (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - I Wonder (4K).jpg''
-        -i ''MP3s/Like Saturn - I Wonder.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - I Wonder.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - I Wonder (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Illusive Past (4K).jpg''
-        -i ''MP3s/Like Saturn - Illusive Past.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Illusive Past.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Illusive Past (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Let''"''"''s Go Far
         Away (4K).jpg'' -i ''MP3s/Like Saturn - Let''"''"''s Go Far Away.mp3'' -c:v
-        libx265 -crf 51 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a
+        libx264 -crf 0 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a
         320k -ac 2 -ar 44100 -shortest ''Like Saturn - Let''"''"''s Go Far Away (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Losing My Head (4K).jpg''
-        -i ''MP3s/Like Saturn - Losing My Head.mp3'' -c:v libx265 -crf 51 -preset
+        -i ''MP3s/Like Saturn - Losing My Head.mp3'' -c:v libx264 -crf 0 -preset
         ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest
         ''Like Saturn - Losing My Head (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Lost In The Sand
-        (4K).jpg'' -i ''MP3s/Like Saturn - Lost In The Sand.mp3'' -c:v libx265 -crf
+        (4K).jpg'' -i ''MP3s/Like Saturn - Lost In The Sand.mp3'' -c:v libx264 -crf
         25 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2
         -ar 44100 -shortest ''Like Saturn - Lost In The Sand (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Lucid Unknowns (4K).jpg''
-        -i ''MP3s/Like Saturn - Lucid Unknowns.mp3'' -c:v libx265 -crf 51 -preset
+        -i ''MP3s/Like Saturn - Lucid Unknowns.mp3'' -c:v libx264 -crf 0 -preset
         ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest
         ''Like Saturn - Lucid Unknowns (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Maybe It''"''"''s
         All Over (4K).jpg'' -i ''MP3s/Like Saturn - Maybe It''"''"''s All Over.mp3''
-        -c:v libx265 -crf 51 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame
+        -c:v libx264 -crf 0 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame
         -b:a 320k -ac 2 -ar 44100 -shortest ''Like Saturn - Maybe It''"''"''s All
         Over (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Melancholy Abyss
-        (4K).jpg'' -i ''MP3s/Like Saturn - Melancholy Abyss.mp3'' -c:v libx265 -crf
+        (4K).jpg'' -i ''MP3s/Like Saturn - Melancholy Abyss.mp3'' -c:v libx264 -crf
         25 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2
         -ar 44100 -shortest ''Like Saturn - Melancholy Abyss (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Middle Of Nowhere
-        (4K).jpg'' -i ''MP3s/Like Saturn - Middle Of Nowhere.mp3'' -c:v libx265 -crf
+        (4K).jpg'' -i ''MP3s/Like Saturn - Middle Of Nowhere.mp3'' -c:v libx264 -crf
         25 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2
         -ar 44100 -shortest ''Like Saturn - Middle Of Nowhere (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Mirror With No Reflection
-        (4K).jpg'' -i ''MP3s/Like Saturn - Mirror With No Reflection.mp3'' -c:v libx265
-        -crf 51 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac
+        (4K).jpg'' -i ''MP3s/Like Saturn - Mirror With No Reflection.mp3'' -c:v libx264
+        -crf 0 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac
         2 -ar 44100 -shortest ''Like Saturn - Mirror With No Reflection (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Missing Colors (4K).jpg''
-        -i ''MP3s/Like Saturn - Missing Colors.mp3'' -c:v libx265 -crf 51 -preset
+        -i ''MP3s/Like Saturn - Missing Colors.mp3'' -c:v libx264 -crf 0 -preset
         ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest
         ''Like Saturn - Missing Colors (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Missing My Mind (4K).jpg''
-        -i ''MP3s/Like Saturn - Missing My Mind.mp3'' -c:v libx265 -crf 51 -preset
+        -i ''MP3s/Like Saturn - Missing My Mind.mp3'' -c:v libx264 -crf 0 -preset
         ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest
         ''Like Saturn - Missing My Mind (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Mountain Wind (4K).jpg''
-        -i ''MP3s/Like Saturn - Mountain Wind.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Mountain Wind.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Mountain Wind (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Neverending Road
-        (4K).jpg'' -i ''MP3s/Like Saturn - Neverending Road.mp3'' -c:v libx265 -crf
+        (4K).jpg'' -i ''MP3s/Like Saturn - Neverending Road.mp3'' -c:v libx264 -crf
         25 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2
         -ar 44100 -shortest ''Like Saturn - Neverending Road (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Neverness (4K).jpg''
-        -i ''MP3s/Like Saturn - Neverness.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Neverness.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Neverness (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - New Ruins (4K).jpg''
-        -i ''MP3s/Like Saturn - New Ruins.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - New Ruins.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - New Ruins (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - No Pixels (4K).jpg''
-        -i ''MP3s/Like Saturn - No Pixels.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - No Pixels.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - No Pixels (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Nori Beam (4K).jpg''
-        -i ''MP3s/Like Saturn - Nori Beam.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Nori Beam.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Nori Beam (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Old Flowers (4K).jpg''
-        -i ''MP3s/Like Saturn - Old Flowers.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Old Flowers.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Old Flowers (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Overnight Trip (4K).jpg''
-        -i ''MP3s/Like Saturn - Overnight Trip.mp3'' -c:v libx265 -crf 51 -preset
+        -i ''MP3s/Like Saturn - Overnight Trip.mp3'' -c:v libx264 -crf 0 -preset
         ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest
         ''Like Saturn - Overnight Trip (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Past The Storm (4K).jpg''
-        -i ''MP3s/Like Saturn - Past The Storm.mp3'' -c:v libx265 -crf 51 -preset
+        -i ''MP3s/Like Saturn - Past The Storm.mp3'' -c:v libx264 -crf 0 -preset
         ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest
         ''Like Saturn - Past The Storm (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Radiant (4K).jpg''
-        -i ''MP3s/Like Saturn - Radiant.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Radiant.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Radiant (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Serene Memoir (4K).jpg''
-        -i ''MP3s/Like Saturn - Serene Memoir.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Serene Memoir.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Serene Memoir (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Silent Peaks (4K).jpg''
-        -i ''MP3s/Like Saturn - Silent Peaks.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Silent Peaks.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Silent Peaks (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Silent Tears (4K).jpg''
-        -i ''MP3s/Like Saturn - Silent Tears.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Silent Tears.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Silent Tears (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Sleepless Nights
-        (4K).jpg'' -i ''MP3s/Like Saturn - Sleepless Nights.mp3'' -c:v libx265 -crf
+        (4K).jpg'' -i ''MP3s/Like Saturn - Sleepless Nights.mp3'' -c:v libx264 -crf
         25 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2
         -ar 44100 -shortest ''Like Saturn - Sleepless Nights (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Snow Mushrooms (4K).jpg''
-        -i ''MP3s/Like Saturn - Snow Mushrooms.mp3'' -c:v libx265 -crf 51 -preset
+        -i ''MP3s/Like Saturn - Snow Mushrooms.mp3'' -c:v libx264 -crf 0 -preset
         ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest
         ''Like Saturn - Snow Mushrooms (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Solemn Sky (4K).jpg''
-        -i ''MP3s/Like Saturn - Solemn Sky.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Solemn Sky.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Solemn Sky (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Still Forgotten (4K).jpg''
-        -i ''MP3s/Like Saturn - Still Forgotten.mp3'' -c:v libx265 -crf 51 -preset
+        -i ''MP3s/Like Saturn - Still Forgotten.mp3'' -c:v libx264 -crf 0 -preset
         ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest
         ''Like Saturn - Still Forgotten (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Stranded Nowhere
-        (4K).jpg'' -i ''MP3s/Like Saturn - Stranded Nowhere.mp3'' -c:v libx265 -crf
+        (4K).jpg'' -i ''MP3s/Like Saturn - Stranded Nowhere.mp3'' -c:v libx264 -crf
         25 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2
         -ar 44100 -shortest ''Like Saturn - Stranded Nowhere (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Strong Absence (4K).jpg''
-        -i ''MP3s/Like Saturn - Strong Absence.mp3'' -c:v libx265 -crf 51 -preset
+        -i ''MP3s/Like Saturn - Strong Absence.mp3'' -c:v libx264 -crf 0 -preset
         ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest
         ''Like Saturn - Strong Absence (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Summer Memories (4K).jpg''
-        -i ''MP3s/Like Saturn - Summer Memories.mp3'' -c:v libx265 -crf 51 -preset
+        -i ''MP3s/Like Saturn - Summer Memories.mp3'' -c:v libx264 -crf 0 -preset
         ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest
         ''Like Saturn - Summer Memories (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Thin Atmosphere (4K).jpg''
-        -i ''MP3s/Like Saturn - Thin Atmosphere.mp3'' -c:v libx265 -crf 51 -preset
+        -i ''MP3s/Like Saturn - Thin Atmosphere.mp3'' -c:v libx264 -crf 0 -preset
         ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest
         ''Like Saturn - Thin Atmosphere (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Time And Time Again
-        (4K).jpg'' -i ''MP3s/Like Saturn - Time And Time Again.mp3'' -c:v libx265
-        -crf 51 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac
+        (4K).jpg'' -i ''MP3s/Like Saturn - Time And Time Again.mp3'' -c:v libx264
+        -crf 0 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac
         2 -ar 44100 -shortest ''Like Saturn - Time And Time Again (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Time For A Reset
-        (4K).jpg'' -i ''MP3s/Like Saturn - Time For A Reset.mp3'' -c:v libx265 -crf
+        (4K).jpg'' -i ''MP3s/Like Saturn - Time For A Reset.mp3'' -c:v libx264 -crf
         25 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2
         -ar 44100 -shortest ''Like Saturn - Time For A Reset (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Turns To Ash (4K).jpg''
-        -i ''MP3s/Like Saturn - Turns To Ash.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Turns To Ash.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Turns To Ash (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Undiscovered City
-        (4K).jpg'' -i ''MP3s/Like Saturn - Undiscovered City.mp3'' -c:v libx265 -crf
+        (4K).jpg'' -i ''MP3s/Like Saturn - Undiscovered City.mp3'' -c:v libx264 -crf
         25 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2
         -ar 44100 -shortest ''Like Saturn - Undiscovered City (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Unearth (4K).jpg''
-        -i ''MP3s/Like Saturn - Unearth.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Unearth.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Unearth (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Unfinished (4K).jpg''
-        -i ''MP3s/Like Saturn - Unfinished.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Unfinished.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Unfinished (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Unseen Lights (4K).jpg''
-        -i ''MP3s/Like Saturn - Unseen Lights.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Unseen Lights.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Unseen Lights (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Up And Away (4K).jpg''
-        -i ''MP3s/Like Saturn - Up And Away.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Up And Away.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Up And Away (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Warped (4K).jpg''
-        -i ''MP3s/Like Saturn - Warped.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Warped.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Warped (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Wasn''"''"''t Trying
         To Love You (4K).jpg'' -i ''MP3s/Like Saturn - Wasn''"''"''t Trying To Love
-        You.mp3'' -c:v libx265 -crf 51 -preset ultrafast -pix_fmt yuv420p -c:a
+        You.mp3'' -c:v libx264 -crf 0 -preset ultrafast -pix_fmt yuv420p -c:a
         libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like Saturn - Wasn''"''"''t
         Trying To Love You (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Weird Times (4K).jpg''
-        -i ''MP3s/Like Saturn - Weird Times.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - Weird Times.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - Weird Times (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - When Darkness Fades
-        (4K).jpg'' -i ''MP3s/Like Saturn - When Darkness Fades.mp3'' -c:v libx265
-        -crf 51 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac
+        (4K).jpg'' -i ''MP3s/Like Saturn - When Darkness Fades.mp3'' -c:v libx264
+        -crf 0 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac
         2 -ar 44100 -shortest ''Like Saturn - When Darkness Fades (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Where I Should Be
-        (4K).jpg'' -i ''MP3s/Like Saturn - Where I Should Be.mp3'' -c:v libx265 -crf
+        (4K).jpg'' -i ''MP3s/Like Saturn - Where I Should Be.mp3'' -c:v libx264 -crf
         25 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2
         -ar 44100 -shortest ''Like Saturn - Where I Should Be (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Whispering Motions
-        (4K).jpg'' -i ''MP3s/Like Saturn - Whispering Motions.mp3'' -c:v libx265 -crf
+        (4K).jpg'' -i ''MP3s/Like Saturn - Whispering Motions.mp3'' -c:v libx264 -crf
         25 -preset ultrafast -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2
         -ar 44100 -shortest ''Like Saturn - Whispering Motions (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - What A View (4K).jpg''
-        -i ''MP3s/Like Saturn - What A View.mp3'' -c:v libx265 -crf 51 -preset ultrafast
+        -i ''MP3s/Like Saturn - What A View.mp3'' -c:v libx264 -crf 0 -preset ultrafast
         -pix_fmt yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
         Saturn - What A View (4K).mp4''
 
         ffmpeg -loop 1 -framerate 24 -i ''JPGs/4Ks/Like Saturn - Yama (4K).jpg'' -i
-        ''MP3s/Like Saturn - Yama.mp3'' -c:v libx265 -crf 51 -preset ultrafast -pix_fmt
+        ''MP3s/Like Saturn - Yama.mp3'' -c:v libx264 -crf 0 -preset ultrafast -pix_fmt
         yuv420p -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like Saturn
         - Yama (4K).mp4'''
     - name: Upload MP4s
