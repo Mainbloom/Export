@@ -1,20 +1,29 @@
 name: FFmpeg Encode MP4s
-'on':
-  workflow_dispatch: {}
+
+on:
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Install FFmpeg
-      run: sudo apt update && sudo apt install -y ffmpeg
-    - name: Run FFmpeg Commands
-      run: 'ffmpeg -loop 1 -framerate 60 -i ''JPGs/4Ks/Like Saturn - Abandoned (4K).jpg''
-        -i ''MP3s/Like Saturn - Abandoned.mp3'' -c:v libx265 -crf 0 -preset ultrafast
-        -pix_fmt yuv444p12le -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest ''Like
-        Saturn - Abandoned (4K).mp4''
-    - name: Upload MP4s
-      uses: actions/upload-artifact@v4
-      with:
-        name: encoded-mp4s
-        path: 'Like Saturn - Abandoned (4K).mp4'
+      - uses: actions/checkout@v4
+
+      - name: Install FFmpeg
+        run: |
+          sudo apt update
+          sudo apt install -y ffmpeg
+
+      - name: Run FFmpeg Command
+        run: |
+          ffmpeg -loop 1 -framerate 60 -i "JPGs/4Ks/Like Saturn - Abandoned (4K).jpg" \
+                 -i "MP3s/Like Saturn - Abandoned.mp3" \
+                 -c:v libx265 -crf 0 -preset ultrafast -pix_fmt yuv444p12le \
+                 -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest \
+                 "Like Saturn - Abandoned (4K).mp4"
+
+      - name: Upload MP4
+        uses: actions/upload-artifact@v4
+        with:
+          name: encoded-mp4s
+          path: "Like Saturn - Abandoned (4K).mp4"
