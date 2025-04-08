@@ -20,10 +20,10 @@ jobs:
                  -i "MP3s/Like Saturn - Abandoned.mp3" \
                  -c:v libx265 -crf 0 -preset ultrafast -pix_fmt yuv444p12le \
                  -c:a libmp3lame -b:a 320k -ac 2 -ar 44100 -shortest \
-                 "Like Saturn - Abandoned (4K).mp4"
+                 "Like Saturn - Abandoned.mp4"
 
       - name: Upload MP4
         uses: actions/upload-artifact@v4
         with:
           name: encoded-mp4s
-          path: "Like Saturn - Abandoned (4K).mp4"
+          path: "Like Saturn - Abandoned.mp4"
