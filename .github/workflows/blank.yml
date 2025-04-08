@@ -1,6 +1,9 @@
 name: FFmpeg Encode MP4s
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
